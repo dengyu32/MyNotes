@@ -1,0 +1,2 @@
+1. 虚拟机内找不到共享文件夹：
+$ sudo mount -t fuse.vmhgfs-fuse .host:/ /mnt/hgfs -o allow_other
